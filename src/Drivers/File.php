@@ -1,6 +1,6 @@
-<?php namespace InakiAnduaga\EloquentExternalStorage\Drivers;
+<?php namespace Tado\EloquentExternalStorage\Drivers;
 
-use InakiAnduaga\EloquentExternalStorage\Drivers\AbstractDriver;
+use Tado\EloquentExternalStorage\Drivers\AbstractDriver;
 
 /**
  * File-based storage driver

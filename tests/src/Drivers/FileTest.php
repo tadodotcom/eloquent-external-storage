@@ -1,7 +1,7 @@
-<?php namespace InakiAnduaga\EloquentExternalStorage\Tests\Drivers;
+<?php namespace Tado\EloquentExternalStorage\Tests\Drivers;
 
-use InakiAnduaga\EloquentExternalStorage\Tests\AbstractBaseTestCase as BaseTestCase;
-use InakiAnduaga\EloquentExternalStorage\Drivers\File as FileDriver;
+use Tado\EloquentExternalStorage\Tests\AbstractBaseTestCase as BaseTestCase;
+use Tado\EloquentExternalStorage\Drivers\File as FileDriver;
 use Illuminate\Support\Facades\Config;
 
 class FileTest extends BaseTestCase {

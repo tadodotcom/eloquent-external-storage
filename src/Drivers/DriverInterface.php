@@ -1,4 +1,4 @@
-<?php namespace InakiAnduaga\EloquentExternalStorage\Drivers;
+<?php namespace Tado\EloquentExternalStorage\Drivers;
 //@codeCoverageIgnoreStart
 
 /**

@@ -1,5 +1,5 @@
 {
-    "name": "tadodotcom/eloquent-external-storage",
+    "name": "tado/eloquent-external-storage",
     "description": "Adds transparent external storage to an eloquent model",
     "keywords": ["eloquent"],
     "license" : "MIT",

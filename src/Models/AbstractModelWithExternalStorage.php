@@ -1,6 +1,6 @@
 <?php //@codeCoverageIgnoreStart
 
-namespace InakiAnduaga\EloquentExternalStorage\Models;
+namespace Tado\EloquentExternalStorage\Models;
 
 use Illuminate\Database\Eloquent\Model as Eloquent;
 

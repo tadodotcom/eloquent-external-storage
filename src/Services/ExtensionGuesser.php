@@ -1,4 +1,4 @@
-<?php namespace InakiAnduaga\EloquentExternalStorage\Services;
+<?php namespace Tado\EloquentExternalStorage\Services;
 
 use Symfony\Component\HttpFoundation\File\MimeType\MimeTypeGuesser;
 use Symfony\Component\HttpFoundation\File\MimeType\ExtensionGuesser as ExtensionGuesserFromMimetype;

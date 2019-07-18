@@ -1,6 +1,6 @@
-<?php namespace InakiAnduaga\EloquentExternalStorage\Tests\Stubs\Models;
+<?php namespace Tado\EloquentExternalStorage\Tests\Stubs\Models;
 
-use InakiAnduaga\EloquentExternalStorage\Models\AbstractModelWithExternalStorage as BaseModel;
+use Tado\EloquentExternalStorage\Models\AbstractModelWithExternalStorage as BaseModel;
 
 /**
  * Test model that implements the external storage

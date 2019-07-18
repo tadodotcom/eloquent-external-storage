@@ -16,13 +16,23 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Bootstrap & general tools
 #
 RUN apt-get update && apt-get upgrade -y
+RUN apt-get update && apt-get install -y wget curl git
 
 #
 # Installing packages
 #
-RUN wget -O - http://dl.hhvm.com/conf/hhvm.gpg.key | sudo apt-key add -
-RUN echo deb http://dl.hhvm.com/ubuntu trusty main | sudo tee /etc/apt/sources.list.d/hhvm.list
-RUN sudo apt-get update && apt-get -y install libgmp-dev libmemcached-dev hhvm-nightly
+RUN apt-get update && \
+  apt-get install -y software-properties-common apt-transport-https && \
+  apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xB4112585D386EB94 && \
+  add-apt-repository "deb http://dl.hhvm.com/ubuntu $(lsb_release -sc)-lts-3.24 main" && \
+  apt-get update && \
+  apt-get install -y hhvm
+
+RUN curl -sS https://getcomposer.org/download/1.6.5/composer.phar -o composer.phar && \
+   mv composer.phar /usr/local/bin/composer && \
+   chmod +x /usr/local/bin/composer
+
+
 RUN apt-get clean && apt-get autoremove -y
 
 #

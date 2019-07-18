@@ -1,8 +1,8 @@
-<?php namespace InakiAnduaga\EloquentExternalStorage\Tests;
+<?php namespace Tado\EloquentExternalStorage\Tests;
 
-use InakiAnduaga\EloquentExternalStorage\Tests\AbstractBaseTestCase;
-use InakiAnduaga\EloquentExternalStorage\Drivers\DriverInterface;
-use InakiAnduaga\EloquentExternalStorage\Drivers\File as FileDriver;
+use Tado\EloquentExternalStorage\Tests\AbstractBaseTestCase;
+use Tado\EloquentExternalStorage\Drivers\DriverInterface;
+use Tado\EloquentExternalStorage\Drivers\File as FileDriver;
 
 /**
  * Adds database layer to base test case
@@ -99,7 +99,7 @@ abstract class AbstractBaseDatabaseTestCase extends AbstractBaseTestCase {
     protected function getPackageAliases()
     {
         return array(
-            'InakiAnduaga\EloquentExternalStorage\Drivers\DriverInterface' => FileDriver::class
+            'Tado\EloquentExternalStorage\Drivers\DriverInterface' => FileDriver::class
         );
     }
 }

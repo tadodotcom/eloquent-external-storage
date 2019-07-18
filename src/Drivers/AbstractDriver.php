@@ -1,7 +1,9 @@
-<?php namespace InakiAnduaga\EloquentExternalStorage\Drivers;
+<?php
 
-use InakiAnduaga\EloquentExternalStorage\Drivers\DriverInterface;
-use InakiAnduaga\EloquentExternalStorage\Services\ExtensionGuesser;
+namespace Tado\EloquentExternalStorage\Drivers;
+
+use Tado\EloquentExternalStorage\Drivers\DriverInterface;
+use Tado\EloquentExternalStorage\Services\ExtensionGuesser;
 use Illuminate\Config\Repository as ConfigService;
 use Carbon\Carbon;
 

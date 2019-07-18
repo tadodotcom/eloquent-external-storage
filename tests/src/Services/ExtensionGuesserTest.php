@@ -1,7 +1,7 @@
-<?php namespace InakiAnduaga\EloquentExternalStorage\Tests\Services;
+<?php namespace Tado\EloquentExternalStorage\Tests\Services;
 
-use InakiAnduaga\EloquentExternalStorage\Tests\AbstractBaseTestCase as BaseTestCase;
-use InakiAnduaga\EloquentExternalStorage\Services\ExtensionGuesser;
+use Tado\EloquentExternalStorage\Tests\AbstractBaseTestCase as BaseTestCase;
+use Tado\EloquentExternalStorage\Services\ExtensionGuesser;
 
 class ExtensionGuesserTest extends BaseTestCase {
 

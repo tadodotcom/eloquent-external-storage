@@ -41,7 +41,7 @@ and the driver class used to store the contents.
 
 ```php
 
-class ActualModel extends InakiAnduaga\EloquentExternalStorage\Models\AbstractModelWithExternalStorage {
+class ActualModel extends Tado\EloquentExternalStorage\Models\AbstractModelWithExternalStorage {
 
     /**
      * Under what db field we store the content path/md5/storage_driver_class for this model
@@ -61,7 +61,7 @@ Each model (class) that needs external storage must have a configuration set, co
   
 ```php
 
-class ActualModel extends InakiAnduaga\EloquentExternalStorage\Models\AbstractModelWithExternalStorage {
+class ActualModel extends Tado\EloquentExternalStorage\Models\AbstractModelWithExternalStorage {
 
    /**
     * This is the path to the driver configuration that will be used for this model class, independently of other classes
@@ -89,7 +89,7 @@ Note that you should set the models `$storageDriverConfigPath` property to point
 
 ## Usage:
 
-- Simply extend `InakiAnduaga\EloquentExternalStorage\Models\AbstractModelWithExternalStorage` in your eloquent model (or use the trait `InakiAnduaga\EloquentExternalStorage\Models\ModelWithExternalStorageTrait` if you can't use class extension. 
+- Simply extend `Tado\EloquentExternalStorage\Models\AbstractModelWithExternalStorage` in your eloquent model (or use the trait `Tado\EloquentExternalStorage\Models\ModelWithExternalStorageTrait` if you can't use class extension. 
    - In the extended model, set driver/database config properties (see above). 
 
 - To attach/retrieve external content associated to a model

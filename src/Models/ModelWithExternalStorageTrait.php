@@ -1,8 +1,8 @@
-<?php namespace InakiAnduaga\EloquentExternalStorage\Models;
+<?php namespace Tado\EloquentExternalStorage\Models;
 
 use Illuminate\Foundation\Application as App;
-use InakiAnduaga\EloquentExternalStorage\Drivers\DriverInterface as StorageDriver;
-use InakiAnduaga\EloquentExternalStorage\Models\ModelWithExternalStorageInterface as Model;
+use Tado\EloquentExternalStorage\Drivers\DriverInterface as StorageDriver;
+use Tado\EloquentExternalStorage\Models\ModelWithExternalStorageInterface as Model;
 
 /**
  * Adds external storage capabilities to any eloquent model

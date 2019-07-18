@@ -1,9 +1,9 @@
 <?php //@codeCoverageIgnoreStart
 
-namespace InakiAnduaga\EloquentExternalStorage\Models;
+namespace Tado\EloquentExternalStorage\Models;
 
 
-use InakiAnduaga\EloquentExternalStorage\Drivers\DriverInterface as StorageDriver;
+use Tado\EloquentExternalStorage\Drivers\DriverInterface as StorageDriver;
 
 /**
  * Requirements for a model to transparently provide external storage capabilities

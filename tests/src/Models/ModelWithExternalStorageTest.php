@@ -1,8 +1,8 @@
-<?php namespace InakiAnduaga\EloquentExternalStorage\Tests\Models;
+<?php namespace Tado\EloquentExternalStorage\Tests\Models;
 
-use InakiAnduaga\EloquentExternalStorage\Tests\AbstractBaseDatabaseTestCase;
-use InakiAnduaga\EloquentExternalStorage\Tests\Stubs\Models\TestModel;
-use InakiAnduaga\EloquentExternalStorage\Drivers\File as FileDriver;
+use Tado\EloquentExternalStorage\Tests\AbstractBaseDatabaseTestCase;
+use Tado\EloquentExternalStorage\Tests\Stubs\Models\TestModel;
+use Tado\EloquentExternalStorage\Drivers\File as FileDriver;
 use Illuminate\Support\Facades\Config;
 
 class ModelWithExternalStorageTest extends AbstractBaseDatabaseTestCase {

@@ -1,4 +1,4 @@
-<?php namespace InakiAnduaga\EloquentExternalStorage\Tests;
+<?php namespace Tado\EloquentExternalStorage\Tests;
 
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 

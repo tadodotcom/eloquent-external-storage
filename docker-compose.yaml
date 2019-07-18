@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  website-email:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: eloquent-external-storage
+    container_name: eloquent-external-storage
+    volumes:
+      - ./:/var/eloquent-external-storage:delegated
+    entrypoint: /bin/bash
