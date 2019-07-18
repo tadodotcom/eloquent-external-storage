@@ -29,8 +29,8 @@
     },
     "autoload": {
       "psr-4": {
-            "InakiAnduaga\\EloquentExternalStorage\\": "src/",
-            "InakiAnduaga\\EloquentExternalStorage\\Tests\\": "tests/src/"
+            "Tado\\EloquentExternalStorage\\": "src/",
+            "Tado\\EloquentExternalStorage\\Tests\\": "tests/src/"
         }
     },
     "minimum-stability": "stable"
