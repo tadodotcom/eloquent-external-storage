@@ -136,9 +136,10 @@ class AwsS3 extends AbstractDriver {
         $this->s3 = S3Client::factory(array(
             'key'    => $this->getConfigRelativeKey('key'),
             'secret' => $this->getConfigRelativeKey('secret'),
-            'region' => $this->getConfigRelativeKey('region'),
+            'region' => $this->getConfigRelativeKey('region')
+                ? $this->getConfigRelativeKey('region')
+                : 'eu-west-1',
+            'version' => '2006-03-01'
         ));
     }
-
-
-} 
+}
